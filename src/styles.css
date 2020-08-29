@@ -15,3 +15,19 @@
 #listaRegistros .active {
   display: block;
 }
+
+#listaRegistros .card-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.costoTotal {
+  border-top: 2px solid rgb(231, 231, 231);
+  font-size: 20px;
+  margin-top: .5em;
+  padding-top: .5em;
+}
+
+.costoTotal span {
+  color: #0074F0;
+}
