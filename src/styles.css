@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+#listaRegistros .card-subtitle {
+  border-bottom: 4px solid #0074F0;
+}
+
+/* Indicar que las alertas se mantengan ocultas */
+
+#formCliente .alert,
+#listaRegistros .alert {
+  display: none;
+}
+
+/* Mostrar solo las alertas que contengan la clase active */
+
+#formCliente .active,
+#listaRegistros .active {
+  display: block;
+}
