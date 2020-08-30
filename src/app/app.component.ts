@@ -51,8 +51,8 @@ export class AppComponent {
         porcDescuento = 0.1;
       }
 
-      descuento = parseFloat(costo.value) * porcDescuento;
-      costoTotal = parseFloat(costo.value) - descuento;
+      descuento = parseFloat((parseFloat(costo.value) * porcDescuento).toFixed(2));
+      costoTotal = parseFloat((parseFloat(costo.value) - descuento).toFixed(2));
 
       // Agregamos el objeto al array registros
       this.registros.push(

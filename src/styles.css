@@ -1,3 +1,11 @@
+body {
+  background: rgb(231, 231, 231);
+}
+#listaRegistros h4 {
+  background: #0074F0;
+  color: #FFF;
+}
+
 #listaRegistros .card-subtitle {
   border-bottom: 4px solid #0074F0;
 }
